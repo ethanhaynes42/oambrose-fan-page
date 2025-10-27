@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>oambrose_fn Fan Hub</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Set Inter as the primary font and apply a dark theme */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0d1117; /* Deep Charcoal/Dark Gray */
+            color: #e2e8f0; /* Light Gray text */
+        }
+        /* Custom neon accent color for links/buttons: Electric Purple */
+        .accent-neon {
+            color: #a855f7;
+        }
+        .bg-accent-neon {
+            background-color: #a855f7;
+        }
+        .hover\:shadow-neon:hover {
+            box-shadow: 0 0 15px #a855f7;
+            transform: translateY(-2px);
+            transition: all 0.2s ease-in-out;
+        }
+        /* For the animated section titles */
+        .title-glow {
+            text-shadow: 0 0 8px rgba(168, 85, 247, 0.7);
+        }
+    </style>
+</head>
+<body class="min-h-screen antialiased">
+
+    <!-- Main Container -->
+    <div class="container mx-auto px-4 py-8 max-w-7xl">
+
+        <!-- Header/Hero Section -->
+        <header class="text-center mb-12 py-10 bg-gray-900 rounded-3xl shadow-2xl">
+            <div class="flex flex-col items-center">
+                <!-- Creator Icon Placeholder (using an emoji as a gaming icon) -->
+                <div class="text-7xl mb-4 p-4 border-4 border-accent-neon rounded-full inline-block title-glow">
+                    🎮
+                </div>
+                <h1 class="text-5xl md:text-7xl font-extrabold mb-2 title-glow">
+                    @oambrose_fn
+                </h1>
+                <p class="text-xl text-gray-400 mb-6">
+                    Master of the Zero Build Grind | Clutch God | Daily Fortnite Videos
+                </p>
+
+                <!-- YouTube Button -->
+                <a href="https://www.youtube.com/@oambrose_fn" target="_blank" rel="noopener noreferrer"
+                   class="inline-flex items-center justify-center px-8 py-3 text-lg font-semibold text-white bg-red-600 rounded-xl shadow-lg hover:bg-red-700 hover:shadow-2xl hover:shadow-red-500/50 transition duration-300 transform hover:scale-105">
+                    <svg class="w-6 h-6 mr-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M10 2c-4.418 0-8 3.582-8 8s3.582 8 8 8 8-3.582 8-8-3.582-8-8-8zm4.721 5.922L8.279 12.399l-2.022-1.35 6.442-4.477z" clip-rule="evenodd"/>
+                    </svg>
+                    Watch His Latest Vids!
+                </a>
+            </div>
+        </header>
+
+        <!-- Main Content Grid -->
+        <main class="grid grid-cols-1 lg:grid-cols-3 gap-10">
+
+            <!-- Left Column: Creator Stats & Bio -->
+            <section class="lg:col-span-1 space-y-8">
+                <!-- Creator Bio -->
+                <div class="bg-gray-800 p-6 rounded-xl shadow-lg border-t-4 border-accent-neon">
+                    <h2 class="text-3xl font-bold mb-4 accent-neon title-glow">About Ambrose</h2>
+                    <p class="text-gray-300 leading-relaxed">
+                        oambrose\_fn is a dedicated content creator known for his high-energy Fortnite gameplay. Focusing primarily on the Zero Build mode, he specializes in insane late-game clutches and breaking down the meta. Whether it's showing off a massive elimination streak or delivering commentary on new seasonal updates, his videos are a must-watch for anyone serious about improving their game.
+                    </p>
+                </div>
+
+                <!-- Stats Card (Mock Data) -->
+                <div class="bg-gray-800 p-6 rounded-xl shadow-lg">
+                    <h2 class="text-3xl font-bold mb-4 text-gray-100">Stats Tracker</h2>
+                    <div class="space-y-4">
+                        <div class="flex justify-between items-center border-b border-gray-700 pb-2">
+                            <span class="text-gray-400">Total Recorded Wins:</span>
+                            <span class="text-2xl font-bold accent-neon">5,341</span>
+                        </div>
+                        <div class="flex justify-between items-center border-b border-gray-700 pb-2">
+                            <span class="text-gray-400">Favored Drop Spot:</span>
+                            <span class="text-2xl font-bold text-green-400">Reckless Railways</span>
+                        </div>
+                        <div class="flex justify-between items-center pb-2">
+                            <span class="text-gray-400">Best Elimination Streak:</span>
+                            <span class="text-2xl font-bold text-red-500">24</span>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- Right Column: Featured Content -->
+            <section class="lg:col-span-2 space-y-8">
+                <h2 class="text-4xl font-bold mb-6 text-center lg:text-left title-glow">Featured Clips & Content</h2>
+
+                <!-- Mock Video Card 1 -->
+                <div class="bg-gray-800 p-6 rounded-xl shadow-xl hover:shadow-neon transition duration-200">
+                    <h3 class="text-2xl font-semibold mb-2 text-white">🤯 ZERO BUILD 1v4 CLUTCH FOR THE VICTORY</h3>
+                    <p class="text-gray-400 mb-4">
+                        *Mock Content:* Watch Ambrose pull off the impossible after his team gets wiped, using quick thinking and perfect shotgun aim to secure a thrilling win.
+                    </p>
+                    <button id="clip1Button"
+                        class="bg-accent-neon text-gray-900 font-bold py-2 px-4 rounded-lg hover:bg-purple-400 transition duration-150 shadow-md">
+                        View Clip (Link Placeholder)
+                    </button>
+                </div>
+
+                <!-- Mock Video Card 2 -->
+                <div class="bg-gray-800 p-6 rounded-xl shadow-xl hover:shadow-neon transition duration-200">
+                    <h3 class="text-2xl font-semibold mb-2 text-white">NEW SEASON: Best Landing Spots & Loot Routes</h3>
+                    <p class="text-gray-400 mb-4">
+                        *Mock Content:* A comprehensive guide to mastering the start of the new season, showing off high-tier loot rotations and hidden vault locations.
+                    </p>
+                    <button id="clip2Button"
+                        class="bg-accent-neon text-gray-900 font-bold py-2 px-4 rounded-lg hover:bg-purple-400 transition duration-150 shadow-md">
+                        View Clip (Link Placeholder)
+                    </button>
+                </div>
+
+                <!-- Latest Short Card -->
+                <div class="bg-gray-800 p-6 rounded-xl shadow-xl hover:shadow-neon transition duration-200">
+                    <h3 class="text-2xl font-semibold mb-2 text-white">The SMG Nerf Discussion (YouTube Short)</h3>
+                    <p class="text-gray-400 mb-4">
+                        *Mock Content:* Ambrose gives his 60-second hot take on the latest weapon balance changes and how it affects competitive play.
+                    </p>
+                    <button id="shortButton"
+                        class="bg-accent-neon text-gray-900 font-bold py-2 px-4 rounded-lg hover:bg-purple-400 transition duration-150 shadow-md">
+                        View Short (Link Placeholder)
+                    </button>
+                </div>
+            </section>
+        </main>
+
+        <!-- Modal/Message Box Structure -->
+        <div id="messageBox" class="fixed inset-0 bg-black bg-opacity-70 hidden items-center justify-center p-4 z-50">
+            <div class="bg-gray-900 p-6 rounded-xl max-w-sm w-full shadow-2xl border-2 border-accent-neon transform transition-all duration-300 scale-100">
+                <h3 class="text-2xl font-bold mb-3 accent-neon">Content Placeholder</h3>
+                <p class="text-gray-300 mb-4">
+                    In a real fan page, this button would link directly to the YouTube video! For this example, we'll just acknowledge the click.
+                </p>
+                <button onclick="closeMessageBox()" class="w-full bg-red-600 text-white font-semibold py-2 rounded-lg hover:bg-red-700 transition duration-150">
+                    Close
+                </button>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center py-6 mt-12 border-t border-gray-800 bg-gray-900">
+        <p class="text-gray-500 text-sm">
+            &copy; 2025 oambrose_fn Fan Page. All content and trademarks belong to their respective owners. <br class="sm:hidden"> This page is a fan creation.
+        </p>
+    </footer>
+
+    <!-- JavaScript for Message Box -->
+    <script>
+        // Function to show the custom message box
+        function showMessageBox() {
+            const messageBox = document.getElementById('messageBox');
+            messageBox.style.display = 'flex';
+        }
+
+        // Function to hide the custom message box
+        function closeMessageBox() {
+            const messageBox = document.getElementById('messageBox');
+            messageBox.style.display = 'none';
+        }
+
+        // Attach event listeners to all mock content buttons
+        document.addEventListener('DOMContentLoaded', () => {
+            const clipButtons = document.querySelectorAll('#clip1Button, #clip2Button, #shortButton');
+            clipButtons.forEach(button => {
+                button.addEventListener('click', showMessageBox);
+            });
+        });
+    </script>
+
+</body>
+</html>
